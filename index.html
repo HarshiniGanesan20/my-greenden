@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <link rel="icon" href="./img/favicon.jpg">
+</head>
+<!-- Tailwind CSS CDN  Link-->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+
+    <!-- Header Section -->
+    <section  class="shadow-xl sticky top-0 z-10 bg-white">
+
+        <div class="p-5 flex items-center justify-between">
+            <h1 class="text-green-900 font-bold text-3xl"><a href=./index.html>Greenden</a></h1>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 md:hidden">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+            <ul class=" gap-4 hidden md:flex text-green-900 font-semibold text-1xl ">
+                <li class="hover:underline"><a href="./index.html">Home</a></li>
+                <li class="hover:underline"><a href="./product.html">Products</a></li>
+                <li class="hover:underline"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Hero section -->
+
+    <section class="bg-green-100 p-10 md:px-5 flex justify-center items-center" style="background-color: #E2E6DB;">
+        <div class="p-4">
+            <p class="mb-4 md:text-2xl">We Offer You a Wide Range of Artificial and Natural Flowers</p>
+            <h2 class="font-bold text-xl md:text-5xl mb-5">PLANTS FOR YOUR INTERIOR</h2>
+            <div>
+                <button class="bg-green-900 hover:bg-green-800 rounded text-white p-2 md:text-lg">Shop Now</button>
+                <button class="border border-green-900 hover:bg-green-900 hover:text-white rounded p-2 md:text-lg">Watch
+                    Video</button>
+            </div>
+            <p class=" md:text-2xl mt-5">160+ plants species | 100+ clients </p>
+        </div>
+        <div class="hidden md:block px-5">
+            <img class="w-full " src="./img/cropbanner.png">
+        </div>
+    </section>
+
+    <!-- <div class=" md:hidden px-5">
+        <img class="w-full " src="./img/cropbanner.png">
+    </div> -->
+
+
+    <!-- About us -->
+
+    <div class="flex mt-5 justify-between items-center">
+        <div class=" hidden md:block p-10 w-1/2">
+            <img src="./img/abt1.png ">
+        </div>
+
+        <div class=" p-10 md:w-1/2">
+            <h2 class=" font-semibold text-2xl  md:text-5xl mt-2 md:mt-5">Decorate Your
+                Home With Plants</h2>
+            <p class="mt-5">Praesent egestas tristique nibh. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam
+                libero,
+                non adipiscing dolor urna a orci. Fusce convallis metus id felis luctus adipiscing. Integer
+                tincidunt. Etiam imperdiet imperdiet orci</p>
+            <p class="mt-5">Praesent egestas tristique nibh. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam
+                libero,
+                non adipiscing dolor urna a orci. Fusce convallis metus id felis luctus adipiscing. Integer
+                tincidunt. Etiam imperdiet imperdiet orci</p>
+
+            <button class=" mt-5 bg-green-900 hover:bg-green-800 rounded text-white p-2 md:text-lg"><a href="./contact.html">Let's Connect</a></button>
+
+        </div>
+
+    </div>
+
+    <div class=" mb-10 md:hidden px-5">
+        <img class="w-full " src="./img/abt1.png">
+    </div>
+
+
+    <!-- Support Icons -->
+
+    <section class="text-center">
+
+        <div class=" py-10 md:py-20 md:flex" style="background-color: #E2E6DB;">
+
+            <div class="p-2 m-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-16 inline bg-green-900 text-white rounded-full p-3">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+                </svg>
+
+                <h3 class="font-medium text-xl p-2">Large Assortment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione praesentium quis delectus est nulla.
+                </p>
+            </div>
+
+            <div class="p-2 m-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-16 inline bg-green-900 text-white rounded-full p-3">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+                </svg>
+
+                <h3 class="font-medium p-2 text-xl">Free and Fast Shipping</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione praesentium quis delectus est nulla.
+                </p>
+            </div>
+
+            <div class="p-2 m-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-16 inline bg-green-900 text-white rounded-full p-3">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                </svg>
+
+
+                <h3 class="font-medium p-2 text-xl">24/7 Support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione praesentium quis delectus est nulla.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- BEST SELLERS -->
+    <section class="text-center p-4">
+
+        <h2 class=" font-semibold text-lg  md:text-5xl  md:mt-5">Best Sellers</h2>
+        <p class="mt-5">Our bestsellers include nature-inspired wall art, eco-friendly candles, wooden decor, and indoor
+            plants to
+            elevate your space.</p>
+
+        <div class="grid gap-5 grid-cols-2 md:grid-cols-4 mt-10">
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/aloe.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Aloe Plant</h1>
+                    <p class=" font-semibold text-green-700">$5.5 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+
+            </div>
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./img/grey star calathea.jpg">
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Calathea Plant</h1>
+                    <p class=" font-semibold text-green-700">$7.8 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+            </div>
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/croton petra.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class=" text-lg">Croton Petra</h1>
+                    <p class=" font-semibold text-green-700">$6.7 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+
+            </div>
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/jade succulent.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Jade Succulent </h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+            </div>
+
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/aurora plant.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Aurora Plant </h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$4.2</del></p>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./img/calathea freddie.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Calathea Freddie</h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$5.7</del></p>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/echeveria.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Echeveria</h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$6.7</del></p>
+                </div>
+
+            </div>
+
+
+            <div class="">
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/ZZ plant.jpg">
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Zanzibar Gem</h1>
+                    <p class=" font-semibold text-green-700">$8.7 <del
+                            class="pl-1 font-semibold text-red-700">$5.7</del></p>
+                </div>
+            </div>
+
+        </div>
+
+        <button class=" mt-10 bg-green-900 hover:bg-green-800 rounded text-white p-2 md:text-lg"><a href="./product.html">View All
+            Products</a></button>
+    </section>
+
+
+
+<!-- Customer Review -->
+
+<section class="mt-5 p-5">
+    <h2 class=" font-semibold text-lg text-center md:text-5xl  md:mt-5">What Our Customer Says</h2>
+    <p class="mt-5 text-center">See what our customers love about our nature-inspired products!</p>
+
+    <div class="flex justify-center items-center gap-5 flex-col md:flex-row mt-5">
+
+        <div class="container p-5"style="background-color: #E2E6DB;">
+            <i class="fa-solid fa-quote-left text-6xl text-green-900"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque veniam nam officiis alias adipisci
+                placeat veritatis enim tempore corrupti aspernatur nemo nobis accusantium vel, a, repudiandae est
+                perspiciatis iusto.</p>
+                <div class="flex justify-start items-center mt-4 gap-2">
+                    <i class="text-green-900 fa fa-star" aria-hidden="true"></i>
+                    <i class="text-green-900 fa fa-star" aria-hidden="true"></i>
+                    <i class="text-green-900 fa fa-star" aria-hidden="true"></i>
+                    <i class="text-green-900 fa fa-star" aria-hidden="true"></i>    
+                </div>
+            <p class="font-semibold text-lg pt-5">John</p>
+        </div>
+        <div class="container p-5"style="background-color: #E2E6DB;">
+        <i class="fa-solid fa-quote-left text-6xl text-green-900"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque veniam nam officiis alias adipisci
+            placeat veritatis enim tempore corrupti aspernatur nemo nobis accusantium vel, a, repudiandae est
+            perspiciatis iusto.</p>
+            <div class="flex justify-start items-center mt-4 gap-2">
+                <i class="text-green-900 fa fa-star" aria-hidden="true"></i>
+                <i class="text-green-900 fa fa-star" aria-hidden="true"></i>
+                <i class="text-green-900 fa fa-star" aria-hidden="true"></i>
+                <i class="text-green-900 fa fa-star" aria-hidden="true"></i>    
+            </div>
+            <p class="font-semibold text-lg pt-5">Hasi</p>
+    </div>
+
+    <div class="container p-5"style="background-color: #E2E6DB;">
+            <i class="fa-solid fa-quote-left text-6xl text-green-900"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque veniam nam officiis alias adipisci
+                placeat veritatis enim tempore corrupti aspernatur nemo nobis accusantium vel, a, repudiandae est
+                perspiciatis iusto.</p>
+                <div class="flex justify-start items-center mt-4 gap-2">
+                    <i class="text-green-900 fa fa-star" aria-hidden="true"></i>
+                    <i class="text-green-900 fa fa-star" aria-hidden="true"></i>
+                    <i class="text-green-900 fa fa-star" aria-hidden="true"></i>
+                    <i class="text-green-900 fa fa-star" aria-hidden="true"></i>    
+                </div>
+                <p class="font-semibold text-lg pt-5">Sha</p>
+        </div>
+    </div>
+
+</section>
+
+
+
+    <!-- Newsletter -->
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-md sm:text-center">
+                <h2 class=" font-semibold text-lg  md:text-5xl  md:mt-5">Join Our Newsletter</h2>
+                <p class="mt-5 mb-10">Signup for our email Newspaper to get exclusive discounts, updates and more</p>
+                <form action="#">
+
+                    <div class="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
+                        <div class="relative w-full">
+                            <label for="email"
+                                class="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email
+                                address</label>
+                            <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                                <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z">
+                                    </path>
+                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                                </svg>
+                            </div>
+                            <input
+                                class="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                placeholder="Enter your email" type="email" id="email" required="">
+                        </div>
+                        <div>
+                            <button type="submit"
+                                class="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg border cursor-pointer bg-green-900 border-primary-600 sm:rounded-none sm:rounded-r-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Subscribe</button>
+                        </div>
+                    </div>
+                    <div
+                        class="mx-auto max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-300">
+                        We care about the protection of your data. <a href="#"
+                            class="font-medium text-primary-600 dark:text-primary-500 hover:underline">Read our Privacy
+                            Policy</a>.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class=" p-10 flex flex-col gap-5 " style="background-color: #E2E6DB;">
+        <h1 class="font-bold text-4xl text-green-900">Greenden</h1>
+        <p>Greenden offers nature-inspired products that bring peace, beauty, and sustainability into your home</p>
+        <ul class=" gap-4 flex text-green-900 font-semibold text-1xl ">
+            <li class="hover:underline"><a href="./index.html">Home</a></li>
+            <li class="hover:underline"><a href="./product.html">Products</a></li>
+            <li class="hover:underline"><a href="./contact.html">Contact</a></li>
+        </ul>
+        <p>&copy;2024 Greenden.com</p>
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden | Product</title>
+    <link rel="icon" href="./img/favicon.jpg">
+</head>
+<!-- Tailwind CSS CDN  Link-->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+  
+  <!-- Header Section -->
+  <section  class="shadow-xl sticky top-0 z-10 bg-white">
+
+    <div class="p-5 flex items-center justify-between">
+        <h1 class="text-green-900 font-bold text-3xl"><a href=./index.html>Greenden</a></h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class=" gap-4 hidden md:flex text-green-900 font-semibold text-1xl ">
+            <li class="hover:underline"><a href="./index.html">Home</a></li>
+            <li class="hover:underline"><a href="./product.html">Products</a></li>
+            <li class="hover:underline"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
+</section>
+
+
+<!-- Product  Banner -->
+
+<div class="relative w-full h-40 md:h-64 bg-cover bg-center" style="background-image: url('./img/bg-breadcrumb.jpg');">
+    <!-- Text Container -->
+    <div class="absolute inset-0 flex items-center justify-center bg-white bg-opacity-10">
+      <h1 class="text-green-900 text-3xl md:text-5xl font-semibold">Products</h1>
+    </div>
+  </div>
+
+
+    <!-- BEST SELLERS -->
+    <section class="mt-5 text-center p-4">
+
+        <h2 class=" font-semibold text-lg  md:text-5xl  md:mt-5">Best Sellers</h2>
+        <p class="my-5">Our bestsellers include nature-inspired wall art, eco-friendly candles, wooden decor, and indoor
+            plants to
+            elevate your space.</p>
+
+            <input type="text" placeholder="Search for a product..."  class=" border border-black m-3 p-2 w-4/5">
+
+   
+
+        <div class="grid gap-5 grid-cols-2 md:grid-cols-4 mt-10">
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/aloe.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Aloe Plant</h1>
+                    <p class=" font-semibold text-green-700">$5.5 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+
+            </div>
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./img/grey star calathea.jpg">
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Calathea Plant</h1>
+                    <p class=" font-semibold text-green-700">$7.8 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+            </div>
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/croton petra.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class=" text-lg">Croton Petra</h1>
+                    <p class=" font-semibold text-green-700">$6.7 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+
+            </div>
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/jade succulent.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Jade Succulent </h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+            </div>
+
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/aurora plant.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Aurora Plant </h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$4.2</del></p>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./img/calathea freddie.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Calathea Freddie</h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$5.7</del></p>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/echeveria.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Echeveria</h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$6.7</del></p>
+                </div>
+
+            </div>
+
+
+            <div class="">
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/ZZ plant.jpg">
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Zanzibar Gem</h1>
+                    <p class=" font-semibold text-green-700">$8.7 <del
+                            class="pl-1 font-semibold text-red-700">$5.7</del></p>
+                </div>
+            </div>
+
+
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/aloe.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Aloe Plant</h1>
+                    <p class=" font-semibold text-green-700">$5.5 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+
+            </div>
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./img/grey star calathea.jpg">
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Calathea Plant</h1>
+                    <p class=" font-semibold text-green-700">$7.8 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+            </div>
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/croton petra.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class=" text-lg">Croton Petra</h1>
+                    <p class=" font-semibold text-green-700">$6.7 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+
+            </div>
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/jade succulent.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Jade Succulent </h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$9.7</del></p>
+                </div>
+            </div>
+
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/aurora plant.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Aurora Plant </h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$4.2</del></p>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./img/calathea freddie.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Calathea Freddie</h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$5.7</del></p>
+                </div>
+
+            </div>
+
+            <div>
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/echeveria.jpg">
+
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Echeveria</h1>
+                    <p class=" font-semibold text-green-700">$7.5 <del
+                            class="pl-1 font-semibold text-red-700">$6.7</del></p>
+                </div>
+
+            </div>
+
+
+            <div class="">
+                <img class="w-52 inline hover:shadow-xl transform hover:-translate-y-2" src="./img/ZZ plant.jpg">
+                <div class="flex mt-5 justify-center gap-3 items-center">
+                    <h1 class="text-lg">Zanzibar Gem</h1>
+                    <p class=" font-semibold text-green-700">$8.7 <del
+                            class="pl-1 font-semibold text-red-700">$5.7</del></p>
+                </div>
+            </div>
+        </div>     
+    </section>
+
+
+      <!-- Footer -->
+
+      <section class=" mt-5 p-10 flex flex-col gap-5 " style="background-color: #E2E6DB;">
+        <h1 class="font-bold text-4xl text-green-900">Greenden</h1>
+        <p>Greenden offers nature-inspired products that bring peace, beauty, and sustainability into your home</p>
+        <ul class=" gap-4 flex text-green-900 font-semibold text-1xl ">
+            <li class="hover:underline"><a href="./index.html">Home</a></li>
+            <li class="hover:underline"><a href="./product.html">Products</a></li>
+            <li class="hover:underline"><a href="./contact.html">Contact</a></li>
+        </ul>
+        <p>&copy;2024 Greenden.com</p>
+
+    </section>
+
+    </section>

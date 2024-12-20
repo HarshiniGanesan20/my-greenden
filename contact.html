@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden | Contact</title>
+    <link rel="icon" href="./img/favicon.jpg">
+</head>
+<!-- Tailwind CSS CDN  Link-->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+  
+  <!-- Header Section -->
+  <section  class="shadow-xl sticky top-0 z-10 bg-white">
+
+    <div class="p-5 flex items-center justify-between">
+        <h1 class="text-green-900 font-bold text-3xl"><a href=./index.html>Greenden</a></h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class=" gap-4 hidden md:flex text-green-900 font-semibold text-1xl ">
+            <li class="hover:underline"><a href="./index.html">Home</a></li>
+            <li class="hover:underline"><a href="./product.html">Products</a></li>
+            <li class="hover:underline"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
+</section>
+
+
+<!-- Contact Banner -->
+
+<div class="relative w-full h-40 md:h-64 bg-cover bg-center" style="background-image: url('./img/bg-breadcrumb.jpg');">
+    <!-- Text Container -->
+    <div class="absolute inset-0 flex items-center justify-center bg-white bg-opacity-10">
+      <h1 class="text-green-900 text-3xl md:text-5xl font-semibold">Contact</h1>
+    </div>
+  </div>
+
+
+<!-- Contact us -->
+
+<section class="bg-white dark:bg-gray-900">
+    <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <h2 class=" font-semibold text-lg text-center md:text-5xl  md:mt-5">Get In Touch</h2>
+        <p class="mt-5 text-center">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+     <form action="#" class=" mt-10 space-y-8">
+            <div>
+                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+            </div>
+            <div>
+                <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+            </div>
+            <div class="sm:col-span-2">
+                <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+                <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+            </div>
+            <button type="submit" class="w-full py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-green-900 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+        </form>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <section class=" p-10 flex flex-col gap-5 " style="background-color: #E2E6DB;">
+    <h1 class="font-bold text-4xl text-green-900">Greenden</h1>
+    <p>Greenden offers nature-inspired products that bring peace, beauty, and sustainability into your home</p>
+    <ul class=" gap-4 flex text-green-900 font-semibold text-1xl ">
+        <li class="hover:underline"><a href="./index.html">Home</a></li>
+        <li class="hover:underline"><a href="./product.html">Products</a></li>
+        <li class="hover:underline"><a href="./contact.html">Contact</a></li>
+    </ul>
+    <p>&copy;2024 Greenden.com</p>
+
+</section>
+
+</section>
+
