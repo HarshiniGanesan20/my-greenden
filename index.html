@@ -19,7 +19,7 @@
 
         <div class="p-5 flex items-center justify-between">
             <h1 class="text-green-900 font-bold text-3xl"><a href=./index.html>Greenden</a></h1>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            <svg id="menubar" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-6 md:hidden">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
@@ -31,6 +31,26 @@
             </ul>
         </div>
     </section>
+
+
+<!-- Side bar -->
+
+<section id="sidenav" class="  fixed z-20 top-0 transition-all duration-1000 md:hidden " style="width: 50%;height: 100vh; right:-50%; background-color: #E2E6DB;">
+    <div class="text-right p-5">
+        <svg id="closenav" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 inline cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+          </svg>
+          
+    </div>
+
+        <ul class=" gap-10 flex flex-col items-center  md:flex text-green-900 font-semibold text-1xl ">
+            <li class="hover:underline"><a href="./index.html">Home</a></li>
+            <li class="hover:underline"><a href="./product.html">Products</a></li>
+            <li class="hover:underline"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
+</section>
+
 
     <!-- Hero section -->
 
@@ -340,6 +360,11 @@
         <p>&copy;2024 Greenden.com</p>
 
     </section>
+
+    <script src="index.js">
+       
+
+    </script>
 </body>
 
 </html>
